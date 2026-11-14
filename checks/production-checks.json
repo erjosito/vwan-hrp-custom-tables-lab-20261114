@@ -1,0 +1,11 @@
+{
+  "verifiedAtUtc": "2026-11-14T13:34:35.331Z",
+  "url": "https://vwan-simulator.com/",
+  "revision": "f4f03de982f3aeb84d55be755f2e80b7c67a222c",
+  "customOriginSelectableAndHighlighted": true,
+  "reverseDestinationLabelIsolationRetained": true,
+  "publishedCollectorBytesMatchMergedSource": true,
+  "publishedCollectorSha256": "8aa0e38601fd4acf2d0fa5bb59ea7367b8b7367f3707114e5a6fa99c81ca5602",
+  "productionBrowserTestsPassed": 2,
+  "productionBrowserTestSelection": "azure-comparison.spec.ts: custom-table comparison and custom route inspection"
+}

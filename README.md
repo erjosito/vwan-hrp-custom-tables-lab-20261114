@@ -239,6 +239,18 @@ covering both collector suites, generated Bicep and the browser suite.
 removes only the calibrated custom-origin coverage gate; unknown/remote-only,
 conflicting-origin, static and secured/custom boundaries remain conservative.
 
+[erjosito/vwan-visual-topology#111](https://github.com/erjosito/vwan-visual-topology/pull/111) is merged as
+[`f4f03de982f3aeb84d55be755f2e80b7c67a222c`](https://github.com/erjosito/vwan-visual-topology/commit/f4f03de982f3aeb84d55be755f2e80b7c67a222c).
+[Exact-main CI and deployment](https://github.com/erjosito/vwan-visual-topology/actions/runs/43598731948)
+succeeded; static deployment completed at **2026-11-14 13:23:57 UTC**.
+[Production checks](checks/production-checks.json) at
+https://vwan-simulator.com/ confirmed that exact revision, selectable and
+highlighted calibrated custom-origin routing, and preserved reverse-direction
+destination-label isolation. Both affected production browser tests passed,
+including English/Japanese unknown-context explanations. The collector from
+the actual UI download link matches the merged source byte for byte, SHA-256
+`8aa0e38601fd4acf2d0fa5bb59ea7367b8b7367f3707114e5a6fa99c81ca5602`.
+
 The separate architecture plan for
 [erjosito/vwan-visual-topology#106](https://github.com/erjosito/vwan-visual-topology/issues/106)
 and [erjosito/vwan-visual-topology#112](https://github.com/erjosito/vwan-visual-topology/issues/112)
@@ -250,12 +262,26 @@ No architecture or identity implementation is part of this lab.
 ## Cleanup
 
 Only task-created resources may be deleted. Cleanup is ordered:
-ER connections, private peering, two VXCs, the one MCR, then the owned resource
-group and recorded task-created external access references. The retained
+ER connections, private peering, two VXCs, the one MCR, an independent provider
+audit, recorded task-created external access references, and finally the
+owned resource group. The retained
 private Key Vault and pre-existing products are preserved. An independently
 armed deadline provides interruption protection.
 
-Final cleanup verification will be added after exact-owned absence checks.
+[Final cleanup verification](checks/cleanup-checks.json) completed at
+**2026-11-14 14:24:25 UTC**, before the independently armed 16:03 UTC deadline.
+All three exact-owned provider products (one MCR2 and two VXCs) were
+independently verified **DECOMMISSIONED**, with zero pending provider orders,
+before revoking credential access.
+
+The owned Azure resource group is absent according to both Azure CLI and
+an independent ARM read. Its final inventory contained 41 tagged task
+resources and three generated extensions belonging to the task-created VMs.
+All three recorded task-created grants (two secret-scoped grants and the
+resource-group Contributor grant) and the one owned vault-side endpoint
+reference are absent. The pre-existing Key Vault still exists and its
+public network access remains **Disabled**. Deletion was restricted to
+verified task-created resources and their generated children.
 
 ## References and icon attribution
 
