@@ -1,0 +1,196 @@
+{
+  "runId": "vwan-e-4cf83e09",
+  "label": "four-vpn-er-restored",
+  "region": "se",
+  "ownedVxcIndex": 0,
+  "capturedAtUtc": "2026-11-14T10:35:01.195031+00:00",
+  "peerEstablished": true,
+  "direction": "ADVERTISED",
+  "scope": "Actual customer MCR per-neighbor ADVERTISED via asynchronous diagnostics. Empty results are not suppression proof.",
+  "interface": {
+    "ipAddresses": [
+      "169.254.114.9/30"
+    ],
+    "ipRoutes": [
+      {
+        "description": "owned-lab-control-plane-only",
+        "prefix": "10.60.0.0/16",
+        "nextHop": "169.254.114.10"
+      }
+    ],
+    "peer": {
+      "localAsn": 133937,
+      "peerAsn": 12076,
+      "localIpAddress": "169.254.114.9",
+      "peerIpAddress": "169.254.114.10",
+      "shutdown": false
+    }
+  },
+  "routes": [
+    {
+      "prefix": "10.60.0.0/16",
+      "best": true,
+      "external": true,
+      "med": 0,
+      "origin": "incomplete",
+      "source": "0.0.0.0",
+      "valid": true,
+      "weight": 32768,
+      "asPath": "",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.10",
+        "vxc": {
+          "id": "bd9e42c9-2f12-5e13-9836-95d77187beb2",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-0"
+        }
+      }
+    },
+    {
+      "prefix": "10.210.0.0/16",
+      "best": true,
+      "external": true,
+      "origin": "IGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "10.211.0.0/16",
+      "best": true,
+      "external": true,
+      "origin": "EGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "10.212.0.0/16",
+      "best": true,
+      "external": true,
+      "origin": "IGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "10.213.0.0/16",
+      "best": true,
+      "external": true,
+      "origin": "EGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "10.230.0.0/16",
+      "best": true,
+      "external": true,
+      "origin": "IGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "10.250.0.0/22",
+      "best": true,
+      "external": true,
+      "origin": "IGP",
+      "source": "169.254.114.14",
+      "valid": true,
+      "weight": 0,
+      "asPath": "12076",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "169.254.114.14",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    },
+    {
+      "prefix": "169.254.114.8/30",
+      "best": true,
+      "external": true,
+      "med": 0,
+      "origin": "IGP",
+      "source": "0.0.0.0",
+      "valid": true,
+      "weight": 32768,
+      "asPath": "",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "0.0.0.0",
+        "vxc": {
+          "id": "bd9e42c9-2f12-5e13-9836-95d77187beb2",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-0"
+        }
+      }
+    },
+    {
+      "prefix": "169.254.114.12/30",
+      "best": true,
+      "external": true,
+      "med": 0,
+      "origin": "IGP",
+      "source": "0.0.0.0",
+      "valid": true,
+      "weight": 32768,
+      "asPath": "",
+      "localPref": 100,
+      "nextHop": {
+        "ip": "0.0.0.0",
+        "vxc": {
+          "id": "c8e1b3f8-a507-56af-b028-d18ea9506d02",
+          "name": "lab-operator-vwan-verify-4cf83e09-9-22-vxc-se-1"
+        }
+      }
+    }
+  ]
+}

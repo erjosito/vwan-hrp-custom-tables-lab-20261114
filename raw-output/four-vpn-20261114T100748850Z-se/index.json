@@ -1,0 +1,65 @@
+{
+  "region": "se",
+  "records": [
+    {
+      "startedUtc": "2026-11-14T10:07:48.9134881+00:00",
+      "completedUtc": "2026-11-14T10:08:06.4432365+00:00",
+      "name": "wan-configuration",
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:08:06.4851621+00:00",
+      "completedUtc": "2026-11-14T10:08:20.2538234+00:00",
+      "name": "hub-configuration",
+      "sha256": "FA8A601C09B227289E023E4686D779BC13CC67733095AF45BB470723FE43D220",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:08:20.3000523+00:00",
+      "completedUtc": "2026-11-14T10:08:33.7493121+00:00",
+      "name": "hub-table-configuration",
+      "sha256": "AC8B7960C567E0573510D3F5581958A1E5FBE57BDF50552080C2A0F72FD59359",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:08:33.8084441+00:00",
+      "completedUtc": "2026-11-14T10:08:57.4426138+00:00",
+      "name": "hub-effective-default",
+      "sha256": "DDEAC169346FF7C300E92744CD31478C5D6D08517B06C5328E50EA474FB89582",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:08:57.4932369+00:00",
+      "completedUtc": "2026-11-14T10:09:30.7208119+00:00",
+      "name": "msee-primary",
+      "sha256": "EA40EB34B0FFF8DB2168B9034937AC6449FE42DD7E6A161540B784033F984573",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:09:30.7875230+00:00",
+      "completedUtc": "2026-11-14T10:10:01.5302810+00:00",
+      "name": "msee-secondary",
+      "sha256": "0BB1823DB999D2C0C2C4F48D7B88C9CEE80BBEF9C64B4D269B93E8F17CF9FAA7",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:10:01.5683916+00:00",
+      "completedUtc": "2026-11-14T10:10:24.0640872+00:00",
+      "name": "aux-er-gateway-learned",
+      "sha256": "17A6A49C0857AF4E8881ADFB96B271C785BF0BD0344E8A2D7C15CF6B1A36C613",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:10:24.1122733+00:00",
+      "completedUtc": "2026-11-14T10:10:33.9688307+00:00",
+      "name": "vpn-gateway-endpoints",
+      "sha256": "3B2336073050DEA14F15DDF506971955C31E097F10E034F61F7A6ADCBBEA9909",
+      "status": "captured"
+    }
+  ],
+  "runId": "vwan-e-4cf83e09",
+  "capturedAtUtc": "2026-11-14T10:10:33.9778220+00:00",
+  "label": "four-vpn",
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures."
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "associatedConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-ne/vpnConnections/vpn-branch-ne",
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-spoke-ne",
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-isolated-ne"
+    ],
+    "etag": "W/\"ce79b41b-dce1-51d3-876f-6031dcc51d8c\"",
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/defaultRouteTable",
+    "labels": [
+      "default",
+      "Default"
+    ],
+    "name": "defaultRouteTable",
+    "propagatingConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-ne/vpnConnections/vpn-branch-ne",
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-spoke-ne",
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-isolated-ne"
+    ],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-vwan-e-4cf83e09",
+    "routes": [],
+    "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+  },
+  {
+    "associatedConnections": [],
+    "etag": "W/\"ce79b41b-dce1-51d3-876f-6031dcc51d8c\"",
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/noneRouteTable",
+    "labels": [
+      "none"
+    ],
+    "name": "noneRouteTable",
+    "propagatingConnections": [],
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-vwan-e-4cf83e09",
+    "routes": [],
+    "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+  }
+]

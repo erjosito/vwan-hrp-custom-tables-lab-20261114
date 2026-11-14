@@ -1,0 +1,17 @@
+{
+  "region": "se",
+  "resourceUri": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se/expressRouteConnections/er-se",
+  "apiVersion": "2024-10-01",
+  "result": {
+    "value": []
+  },
+  "status": "captured",
+  "startedAtUtc": "2026-11-14T11:05:23.2021079+00:00",
+  "runId": "vwan-e-4cf83e09",
+  "connectionType": "ExpressRouteConnection",
+  "label": "four-er",
+  "hubPreference": "ExpressRoute",
+  "scope": "Registered per-connection route-map diagnostic, not a complete internal hub eligibility RIB. Empty results do not prove suppression or withdrawal.",
+  "completedAtUtc": "2026-11-14T11:05:30.2043159+00:00",
+  "action": "outboundRoutes"
+}

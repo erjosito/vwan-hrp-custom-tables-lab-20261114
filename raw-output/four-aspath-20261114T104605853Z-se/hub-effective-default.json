@@ -1,0 +1,90 @@
+{
+  "value": [
+    {
+      "addressPrefixes": [
+        "10.60.0.0/16"
+      ],
+      "asPath": "12076-133937",
+      "nextHopType": "ExpressRouteGateway",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se"
+    },
+    {
+      "addressPrefixes": [
+        "10.230.0.0/16"
+      ],
+      "asPath": "12076-12076-12076",
+      "nextHopType": "ExpressRouteGateway",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se"
+    },
+    {
+      "addressPrefixes": [
+        "10.61.1.0/24"
+      ],
+      "asPath": "65011-65011-65011-65011",
+      "nextHopType": "VPN_S2S_Gateway",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-se"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-se"
+    },
+    {
+      "addressPrefixes": [
+        "10.211.0.0/16"
+      ],
+      "asPath": "65520-65520",
+      "nextHopType": "Remote Hub",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+    },
+    {
+      "addressPrefixes": [
+        "10.61.2.0/24"
+      ],
+      "asPath": "65520-65520-65012-65012-65012-65012",
+      "nextHopType": "Remote Hub",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+    },
+    {
+      "addressPrefixes": [
+        "10.213.0.0/16"
+      ],
+      "asPath": "65520-65520",
+      "nextHopType": "Remote Hub",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne"
+    },
+    {
+      "addressPrefixes": [
+        "10.212.0.0/16"
+      ],
+      "nextHopType": "Virtual Network Connection",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-isolated-se"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-isolated-se"
+    },
+    {
+      "addressPrefixes": [
+        "10.210.0.0/16"
+      ],
+      "nextHopType": "Virtual Network Connection",
+      "nextHops": [
+        "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-spoke-se"
+      ],
+      "routeOrigin": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-spoke-se"
+    }
+  ]
+}

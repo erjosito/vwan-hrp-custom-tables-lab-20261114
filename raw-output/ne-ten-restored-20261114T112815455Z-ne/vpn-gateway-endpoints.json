@@ -1,0 +1,44 @@
+{
+  "bgpSettings": {
+    "asn": 65515,
+    "bgpPeeringAddresses": [
+      {
+        "customBgpIpAddresses": [],
+        "defaultBgpIpAddresses": [
+          "10.250.4.13"
+        ],
+        "ipconfigurationId": "Instance0",
+        "tunnelIpAddresses": [
+          "203.0.113.2",
+          "10.250.4.4"
+        ]
+      },
+      {
+        "customBgpIpAddresses": [],
+        "defaultBgpIpAddresses": [
+          "10.250.4.12"
+        ],
+        "ipconfigurationId": "Instance1",
+        "tunnelIpAddresses": [
+          "203.0.113.1",
+          "10.250.4.5"
+        ]
+      }
+    ],
+    "peerWeight": 0
+  },
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-ne",
+  "ipConfigurations": [
+    {
+      "id": "Instance0",
+      "privateIpAddress": "10.250.4.4",
+      "publicIpAddress": "203.0.113.2"
+    },
+    {
+      "id": "Instance1",
+      "privateIpAddress": "10.250.4.5",
+      "publicIpAddress": "203.0.113.1"
+    }
+  ],
+  "provisioningState": "Succeeded"
+}

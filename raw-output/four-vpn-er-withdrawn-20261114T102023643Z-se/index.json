@@ -1,0 +1,65 @@
+{
+  "runId": "vwan-e-4cf83e09",
+  "region": "se",
+  "capturedAtUtc": "2026-11-14T10:23:14.3358107+00:00",
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures.",
+  "label": "four-vpn-er-withdrawn",
+  "records": [
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:20:40.5381920+00:00",
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "startedUtc": "2026-11-14T10:20:23.7253364+00:00",
+      "name": "wan-configuration"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:20:58.8893363+00:00",
+      "sha256": "26B7744018A327C4C78AE91375FFDF0E03137F1749073B24937B8521A4187FF6",
+      "startedUtc": "2026-11-14T10:20:40.7452197+00:00",
+      "name": "hub-configuration"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:21:15.3652554+00:00",
+      "sha256": "30DCE66E668F04FDC8A3055D0CF2F7B5DEC69BE437F31EF8C42D30C397F34719",
+      "startedUtc": "2026-11-14T10:20:58.9407668+00:00",
+      "name": "hub-table-configuration"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:21:39.7713107+00:00",
+      "sha256": "C0DA3D733B269BB01466AE81FE3D48667C3BF9CCBD9923A41A1E406F008FB46C",
+      "startedUtc": "2026-11-14T10:21:15.4643281+00:00",
+      "name": "hub-effective-default"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:22:14.7538183+00:00",
+      "sha256": "4C15E0F403ABD2A8F06F13829DA89A8A43DE42248EBE5F1D30BEF06DE9A68A23",
+      "startedUtc": "2026-11-14T10:21:39.8352344+00:00",
+      "name": "msee-primary"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:22:44.9686606+00:00",
+      "sha256": "D649BF5667451D6F7FC0A982084F7B14D583B103263BA488BCD635238EBBBFB5",
+      "startedUtc": "2026-11-14T10:22:14.8025851+00:00",
+      "name": "msee-secondary"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:23:04.3021062+00:00",
+      "sha256": "FCE515C9045CD4A74F88730851502AD77A90582E89AD5B0AE57C40F61A88AED8",
+      "startedUtc": "2026-11-14T10:22:45.0262906+00:00",
+      "name": "aux-er-gateway-learned"
+    },
+    {
+      "status": "captured",
+      "completedUtc": "2026-11-14T10:23:14.2896944+00:00",
+      "sha256": "3B2336073050DEA14F15DDF506971955C31E097F10E034F61F7A6ADCBBEA9909",
+      "startedUtc": "2026-11-14T10:23:04.3638583+00:00",
+      "name": "vpn-gateway-endpoints"
+    }
+  ]
+}

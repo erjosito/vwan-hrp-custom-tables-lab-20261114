@@ -1,0 +1,366 @@
+{
+  "scope": "Read-only diagnostic action registered in Microsoft.Network provider metadata; separate from hub selected RIB.",
+  "runId": "vwan-e-4cf83e09",
+  "action": "getLearnedRoutes",
+  "result": {
+    "value": [
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.250.0.0/22",
+        "sourcePeer": "10.250.0.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.240.1.4/32",
+        "sourcePeer": "10.250.0.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.240.1.4/32",
+        "nextHop": "10.250.0.13",
+        "sourcePeer": "10.250.0.13",
+        "origin": "IBgp",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.240.1.4",
+        "sourcePeer": "10.240.1.4",
+        "origin": "EBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.13",
+        "sourcePeer": "10.250.0.13",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.240.1.4",
+        "sourcePeer": "10.240.1.4",
+        "origin": "EBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.0.13",
+        "sourcePeer": "10.250.0.13",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.0.13",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.0.13",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.210.0.0/16",
+        "sourcePeer": "10.250.0.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.211.0.0/16",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.211.0.0/16",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.212.0.0/16",
+        "sourcePeer": "10.250.0.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.213.0.0/16",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.213.0.0/16",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "12076-12076",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "12076-12076",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "12076-133937",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "12076-133937",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.250.0.0/22",
+        "sourcePeer": "10.250.0.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.240.1.4/32",
+        "sourcePeer": "10.250.0.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.240.1.4/32",
+        "nextHop": "10.250.0.12",
+        "sourcePeer": "10.250.0.12",
+        "origin": "IBgp",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.240.1.4",
+        "sourcePeer": "10.240.1.4",
+        "origin": "EBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.12",
+        "sourcePeer": "10.250.0.12",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.240.1.4",
+        "sourcePeer": "10.240.1.4",
+        "origin": "EBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.0.12",
+        "sourcePeer": "10.250.0.12",
+        "origin": "IBgp",
+        "asPath": "65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.210.0.0/16",
+        "sourcePeer": "10.250.0.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.211.0.0/16",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.211.0.0/16",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.212.0.0/16",
+        "sourcePeer": "10.250.0.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.213.0.0/16",
+        "nextHop": "10.250.0.133",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.213.0.0/16",
+        "nextHop": "10.250.0.134",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "12076-12076",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "12076-12076",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.133",
+        "origin": "IBgp",
+        "asPath": "12076-133937",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.0.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.0.7",
+        "sourcePeer": "10.250.0.134",
+        "origin": "IBgp",
+        "asPath": "12076-133937",
+        "weight": 32768
+      }
+    ]
+  },
+  "status": "captured",
+  "apiVersion": "2024-10-01",
+  "region": "se",
+  "startedAtUtc": "2026-11-14T09:46:56.5575996+00:00",
+  "completedAtUtc": "2026-11-14T09:47:04.8108204+00:00"
+}

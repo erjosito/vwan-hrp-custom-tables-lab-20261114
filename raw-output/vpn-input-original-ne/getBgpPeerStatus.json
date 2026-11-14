@@ -1,0 +1,112 @@
+{
+  "completedAtUtc": "2026-11-14T09:46:56.9664742+00:00",
+  "scope": "Read-only diagnostic action registered in Microsoft.Network provider metadata; separate from hub selected RIB.",
+  "startedAtUtc": "2026-11-14T09:46:48.7769106+00:00",
+  "apiVersion": "2024-10-01",
+  "runId": "vwan-e-4cf83e09",
+  "region": "ne",
+  "result": {
+    "value": [
+      {
+        "localAddress": "10.250.4.13",
+        "neighbor": "10.250.4.134",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:45:23.7000280",
+        "routesReceived": 6,
+        "messagesSent": 135,
+        "messagesReceived": 78
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "neighbor": "10.250.4.133",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:50:09.8755682",
+        "routesReceived": 6,
+        "messagesSent": 72,
+        "messagesReceived": 80
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "neighbor": "10.241.1.4",
+        "asn": 65012,
+        "state": "Connected",
+        "connectedDuration": "00:41:23.6945451",
+        "routesReceived": 2,
+        "messagesSent": 292,
+        "messagesReceived": 291
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "neighbor": "10.250.4.13",
+        "asn": 65515,
+        "state": "Unknown",
+        "routesReceived": 0,
+        "messagesSent": 0,
+        "messagesReceived": 0
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "neighbor": "10.250.4.12",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:52:15.6468469",
+        "routesReceived": 3,
+        "messagesSent": 80,
+        "messagesReceived": 82
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "neighbor": "10.250.4.134",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:50:10.1397470",
+        "routesReceived": 4,
+        "messagesSent": 73,
+        "messagesReceived": 77
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "neighbor": "10.250.4.133",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:50:09.9522414",
+        "routesReceived": 4,
+        "messagesSent": 70,
+        "messagesReceived": 76
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "neighbor": "10.241.1.4",
+        "asn": 65012,
+        "state": "Connected",
+        "connectedDuration": "00:41:26.6608565",
+        "routesReceived": 2,
+        "messagesSent": 292,
+        "messagesReceived": 292
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "neighbor": "10.250.4.13",
+        "asn": 65515,
+        "state": "Connected",
+        "connectedDuration": "00:52:15.6867222",
+        "routesReceived": 3,
+        "messagesSent": 80,
+        "messagesReceived": 82
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "neighbor": "10.250.4.12",
+        "asn": 65515,
+        "state": "Unknown",
+        "routesReceived": 0,
+        "messagesSent": 0,
+        "messagesReceived": 0
+      }
+    ]
+  },
+  "action": "getBgpPeerStatus",
+  "status": "captured"
+}

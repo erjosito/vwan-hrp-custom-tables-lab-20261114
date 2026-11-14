@@ -1,0 +1,56 @@
+{
+  "region": "ne",
+  "capturedAtUtc": "2026-11-14T10:21:55.5823737+00:00",
+  "runId": "vwan-e-4cf83e09",
+  "records": [
+    {
+      "startedUtc": "2026-11-14T10:20:24.3457534+00:00",
+      "completedUtc": "2026-11-14T10:20:43.6728059+00:00",
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "name": "wan-configuration",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:20:43.7051916+00:00",
+      "completedUtc": "2026-11-14T10:21:00.6623608+00:00",
+      "sha256": "D327BD7FB53D589790F5A6C10B1327E4D4E6DE98B6BE55B70425E6FA021AC525",
+      "name": "hub-configuration",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:21:00.7164486+00:00",
+      "completedUtc": "2026-11-14T10:21:16.3031669+00:00",
+      "sha256": "D51AEF13D352AE2E5A295E07AFC47473F1D82D52D19982922537F2C8F5963A11",
+      "name": "hub-table-configuration",
+      "status": "captured"
+    },
+    {
+      "startedUtc": "2026-11-14T10:21:16.3546174+00:00",
+      "completedUtc": "2026-11-14T10:21:40.2110211+00:00",
+      "sha256": "8A85B3B6A3474DA7D1A09045F5F33C4BCC00588C1E005F0590C6DE1A460775A5",
+      "name": "hub-effective-default",
+      "status": "captured"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "msee-primary"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "msee-secondary"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "aux-er-gateway-learned"
+    },
+    {
+      "startedUtc": "2026-11-14T10:21:40.3544435+00:00",
+      "completedUtc": "2026-11-14T10:21:55.5197215+00:00",
+      "sha256": "6B83CD5C2CBBE701A306140AE033559CBC288DF867B6852D1D61B7D356DE665D",
+      "name": "vpn-gateway-endpoints",
+      "status": "captured"
+    }
+  ],
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures.",
+  "label": "four-vpn-er-withdrawn"
+}

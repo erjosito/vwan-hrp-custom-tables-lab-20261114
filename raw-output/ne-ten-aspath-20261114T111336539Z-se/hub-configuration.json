@@ -1,0 +1,44 @@
+{
+  "addressPrefix": "10.250.0.0/22",
+  "allowBranchToBranchTraffic": false,
+  "etag": "W/\"4e0842cf-05c0-54d8-a939-252a0bd2593a\"",
+  "expressRouteGateway": {
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/expressRouteGateways/ergw-se",
+    "resourceGroup": "rg-vwan-e-4cf83e09"
+  },
+  "hubRoutingPreference": "ASPath",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se",
+  "location": "swedencentral",
+  "name": "hub-se",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "rg-vwan-e-4cf83e09",
+  "routeTable": {
+    "routes": []
+  },
+  "routingState": "Provisioned",
+  "sku": "Standard",
+  "tags": {
+    "created_by": "copilot-lab",
+    "expires_utc": "2026-11-14T16:03:02.9710333+00:00",
+    "lab": "true",
+    "run_id": "vwan-e-4cf83e09"
+  },
+  "type": "Microsoft.Network/virtualHubs",
+  "virtualHubRouteTableV2s": [],
+  "virtualRouterAsn": 65515,
+  "virtualRouterAutoScaleConfiguration": {
+    "minCapacity": 2
+  },
+  "virtualRouterIps": [
+    "10.250.0.133",
+    "10.250.0.134"
+  ],
+  "virtualWan": {
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualWans/wan-e-4cf83e09",
+    "resourceGroup": "rg-vwan-e-4cf83e09"
+  },
+  "vpnGateway": {
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-se",
+    "resourceGroup": "rg-vwan-e-4cf83e09"
+  }
+}

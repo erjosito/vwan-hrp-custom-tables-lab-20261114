@@ -1,0 +1,15 @@
+{
+  "etag": "W/\"812b29c1-4380-53c3-a6b5-bfa993e1c5e0\"",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/blue",
+  "name": "blue",
+  "properties": {
+    "associatedConnections": [],
+    "labels": [
+      "blue"
+    ],
+    "propagatingConnections": [],
+    "provisioningState": "Succeeded",
+    "routes": []
+  },
+  "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+}

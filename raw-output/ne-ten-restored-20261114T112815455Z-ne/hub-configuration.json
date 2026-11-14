@@ -1,0 +1,40 @@
+{
+  "addressPrefix": "10.250.4.0/22",
+  "allowBranchToBranchTraffic": false,
+  "etag": "W/\"8771efc8-4e24-55ea-bb1b-90958928baa4\"",
+  "hubRoutingPreference": "ASPath",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne",
+  "location": "northeurope",
+  "name": "hub-ne",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "rg-vwan-e-4cf83e09",
+  "routeTable": {
+    "routes": []
+  },
+  "routingState": "Provisioned",
+  "sku": "Standard",
+  "tags": {
+    "created_by": "copilot-lab",
+    "expires_utc": "2026-11-14T16:03:02.9710333+00:00",
+    "lab": "true",
+    "run_id": "vwan-e-4cf83e09"
+  },
+  "type": "Microsoft.Network/virtualHubs",
+  "virtualHubRouteTableV2s": [],
+  "virtualRouterAsn": 65515,
+  "virtualRouterAutoScaleConfiguration": {
+    "minCapacity": 2
+  },
+  "virtualRouterIps": [
+    "10.250.4.134",
+    "10.250.4.133"
+  ],
+  "virtualWan": {
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualWans/wan-e-4cf83e09",
+    "resourceGroup": "rg-vwan-e-4cf83e09"
+  },
+  "vpnGateway": {
+    "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/vpnGateways/vpngw-ne",
+    "resourceGroup": "rg-vwan-e-4cf83e09"
+  }
+}

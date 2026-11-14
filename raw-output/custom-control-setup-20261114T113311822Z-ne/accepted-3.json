@@ -1,0 +1,39 @@
+{
+  "etag": "W/\"22cf94fc-4474-54fa-96b5-76829f8fd5aa\"",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-spoke-ne",
+  "name": "vnet-spoke-ne",
+  "properties": {
+    "allowHubToRemoteVnetTransit": true,
+    "allowRemoteVnetToUseHubVnetGateways": true,
+    "connectivityStatus": "Unknown",
+    "enableInternetSecurity": false,
+    "provisioningState": "Updating",
+    "remoteVirtualNetwork": {
+      "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualNetworks/vnet-spoke-ne"
+    },
+    "resourceGuid": "dd2d4eaa-1e0c-5b61-8c06-01ff3dfa37ac",
+    "routingConfiguration": {
+      "associatedRouteTable": {
+        "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/red"
+      },
+      "propagatedRouteTables": {
+        "ids": [
+          {
+            "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/red"
+          }
+        ],
+        "labels": [
+          "red"
+        ]
+      },
+      "vnetRoutes": {
+        "staticRoutes": [],
+        "staticRoutesConfig": {
+          "propagateStaticRoutes": true,
+          "vnetLocalRouteOverrideCriteria": "Contains"
+        }
+      }
+    }
+  },
+  "type": "Microsoft.Network/virtualHubs/hubVirtualNetworkConnections"
+}

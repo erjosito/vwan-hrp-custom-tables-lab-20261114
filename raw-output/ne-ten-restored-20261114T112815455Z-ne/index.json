@@ -1,0 +1,56 @@
+{
+  "runId": "vwan-e-4cf83e09",
+  "region": "ne",
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures.",
+  "label": "ne-ten-restored",
+  "capturedAtUtc": "2026-11-14T11:29:42.1780743+00:00",
+  "records": [
+    {
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "name": "wan-configuration",
+      "status": "captured",
+      "completedUtc": "2026-11-14T11:28:34.7607242+00:00",
+      "startedUtc": "2026-11-14T11:28:15.5377618+00:00"
+    },
+    {
+      "sha256": "950C2A51AAEC22338716F52DC611B70A82851CF27F58E5C7E8B540F7F332B58B",
+      "name": "hub-configuration",
+      "status": "captured",
+      "completedUtc": "2026-11-14T11:28:47.7806163+00:00",
+      "startedUtc": "2026-11-14T11:28:34.8123121+00:00"
+    },
+    {
+      "sha256": "C7CCFB91E410EA8675F7386CF801F99BC270F55A9E97FB1C7B27686B614FC166",
+      "name": "hub-table-configuration",
+      "status": "captured",
+      "completedUtc": "2026-11-14T11:29:01.0500178+00:00",
+      "startedUtc": "2026-11-14T11:28:47.8379309+00:00"
+    },
+    {
+      "sha256": "A13D61E600F63DAD805245D2CC2DAD02A2D9522540E20C20E93E7B70C99C3216",
+      "name": "hub-effective-default",
+      "status": "captured",
+      "completedUtc": "2026-11-14T11:29:27.3757275+00:00",
+      "startedUtc": "2026-11-14T11:29:01.1096787+00:00"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "msee-primary"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "msee-secondary"
+    },
+    {
+      "status": "not-deployed-in-this-control",
+      "name": "aux-er-gateway-learned"
+    },
+    {
+      "sha256": "6B83CD5C2CBBE701A306140AE033559CBC288DF867B6852D1D61B7D356DE665D",
+      "name": "vpn-gateway-endpoints",
+      "status": "captured",
+      "completedUtc": "2026-11-14T11:29:42.1723673+00:00",
+      "startedUtc": "2026-11-14T11:29:27.3912754+00:00"
+    }
+  ]
+}

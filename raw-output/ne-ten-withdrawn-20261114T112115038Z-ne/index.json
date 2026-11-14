@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "completedUtc": "2026-11-14T11:21:33.3570563+00:00",
+      "startedUtc": "2026-11-14T11:21:15.1022373+00:00",
+      "status": "captured",
+      "name": "wan-configuration"
+    },
+    {
+      "sha256": "CC2B7A39D46421C1CE43F300CEB6A40756D3016369B2651450DE593B69EC6D72",
+      "completedUtc": "2026-11-14T11:21:49.3651763+00:00",
+      "startedUtc": "2026-11-14T11:21:33.3982915+00:00",
+      "status": "captured",
+      "name": "hub-configuration"
+    },
+    {
+      "sha256": "B7572F54FC9191A85C52575D2C3F5E326E031D824439F28E636C9452742F82BB",
+      "completedUtc": "2026-11-14T11:22:02.6431198+00:00",
+      "startedUtc": "2026-11-14T11:21:49.3929497+00:00",
+      "status": "captured",
+      "name": "hub-table-configuration"
+    },
+    {
+      "sha256": "A13D61E600F63DAD805245D2CC2DAD02A2D9522540E20C20E93E7B70C99C3216",
+      "completedUtc": "2026-11-14T11:22:25.3565529+00:00",
+      "startedUtc": "2026-11-14T11:22:02.6779534+00:00",
+      "status": "captured",
+      "name": "hub-effective-default"
+    },
+    {
+      "name": "msee-primary",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "name": "msee-secondary",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "name": "aux-er-gateway-learned",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "sha256": "6B83CD5C2CBBE701A306140AE033559CBC288DF867B6852D1D61B7D356DE665D",
+      "completedUtc": "2026-11-14T11:22:38.3779727+00:00",
+      "startedUtc": "2026-11-14T11:22:25.3769850+00:00",
+      "status": "captured",
+      "name": "vpn-gateway-endpoints"
+    }
+  ],
+  "capturedAtUtc": "2026-11-14T11:22:38.3847312+00:00",
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures.",
+  "runId": "vwan-e-4cf83e09",
+  "label": "ne-ten-withdrawn",
+  "region": "ne"
+}

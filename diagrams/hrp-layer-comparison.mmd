@@ -1,0 +1,4 @@
+flowchart LR
+  native["SE native hub / ASPath<br>12076 12076 12076<br>Three provider ASNs"]
+  local["SE actual VPN receiver / BIRD<br>65515 12076 12076<br>Two provider ASNs"]
+  remote["NE actual VPN receiver / BIRD<br>65515 65520 65520<br>12076 12076 12076<br>Three provider ASNs"]

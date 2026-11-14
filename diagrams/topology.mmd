@@ -1,0 +1,26 @@
+flowchart LR
+  mcr["Customer MCR<br/>ASN 133937 / Frankfurt"]
+  erc["SE ExpressRoute circuit<br/>50 Mbps / Stockholm"]
+  aux["Auxiliary classic ER gateway<br/>10.230.0.0/16 / native Azure ASN"]
+  se["Sweden Central hub<br/>10.250.0.0/22 / HRP variable"]
+  ne["North Europe hub<br/>10.250.4.0/22 / HRP variable"]
+  vpnse["SE VPN gateway<br/>ASN 65515 / two BGP sessions"]
+  vpnne["NE VPN gateway<br/>ASN 65515 / two BGP sessions"]
+  branchse["SE BIRD branch<br/>ASN 65011 / wire path 1 or 4"]
+  branchne["NE BIRD branch<br/>ASN 65012 / path 1, 4 or 10"]
+  spokese["SE spoke + controller VM<br/>10.210.0.0/16"]
+  isolatedse["SE second VNet<br/>10.212.0.0/16"]
+  spokene["NE spoke VNet<br/>10.211.0.0/16"]
+  isolatedne["NE second VNet<br/>10.213.0.0/16"]
+  mcr ---|Two VXCs| erc
+  erc ---|ER attachment| se
+  aux ---|Independent native source| erc
+  se ---|Standard WAN transit| ne
+  branchse ---|IPsec + BGP| vpnse
+  vpnse ---|Local VPN| se
+  branchne ---|IPsec + BGP| vpnne
+  vpnne ---|Local VPN| ne
+  spokese --- se
+  isolatedse --- se
+  spokene --- ne
+  isolatedne --- ne

@@ -1,0 +1,366 @@
+{
+  "startedAtUtc": "2026-11-14T10:32:57.5733833+00:00",
+  "result": {
+    "value": [
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.250.4.0/22",
+        "sourcePeer": "10.250.4.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.241.1.4/32",
+        "sourcePeer": "10.250.4.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.241.1.4/32",
+        "nextHop": "10.250.4.13",
+        "sourcePeer": "10.250.4.13",
+        "origin": "IBgp",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.4.13",
+        "sourcePeer": "10.250.4.13",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.4.13",
+        "sourcePeer": "10.250.4.13",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65011-65011-65011-65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65011-65011-65011-65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.210.0.0/16",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.210.0.0/16",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.211.0.0/16",
+        "sourcePeer": "10.250.4.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.212.0.0/16",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.212.0.0/16",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.213.0.0/16",
+        "sourcePeer": "10.250.4.12",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.12",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.4.13",
+        "sourcePeer": "10.250.4.13",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.250.4.0/22",
+        "sourcePeer": "10.250.4.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.241.1.4/32",
+        "sourcePeer": "10.250.4.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.241.1.4/32",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.12",
+        "origin": "IBgp",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.60.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.12",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.2.0/24",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.12",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65011-65011-65011-65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.61.1.0/24",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520-65011-65011-65011-65011",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.210.0.0/16",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.210.0.0/16",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.211.0.0/16",
+        "sourcePeer": "10.250.4.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.212.0.0/16",
+        "nextHop": "10.250.4.133",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.212.0.0/16",
+        "nextHop": "10.250.4.134",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65520-65520",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.213.0.0/16",
+        "sourcePeer": "10.250.4.13",
+        "origin": "Network",
+        "asPath": "",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.241.1.4",
+        "sourcePeer": "10.241.1.4",
+        "origin": "EBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.133",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.134",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      },
+      {
+        "localAddress": "10.250.4.13",
+        "network": "10.230.0.0/16",
+        "nextHop": "10.250.4.12",
+        "sourcePeer": "10.250.4.12",
+        "origin": "IBgp",
+        "asPath": "65012-65012-65012-65012",
+        "weight": 32768
+      }
+    ]
+  },
+  "action": "getLearnedRoutes",
+  "status": "captured",
+  "region": "ne",
+  "apiVersion": "2024-10-01",
+  "runId": "vwan-e-4cf83e09",
+  "completedAtUtc": "2026-11-14T10:33:04.4003430+00:00",
+  "scope": "Read-only diagnostic action registered in Microsoft.Network provider metadata; separate from hub selected RIB."
+}

@@ -1,0 +1,15 @@
+{
+  "etag": "W/\"be42e4f0-b27d-5261-8763-436e26f4489f\"",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubRouteTables/red",
+  "name": "red",
+  "properties": {
+    "associatedConnections": [],
+    "labels": [
+      "red"
+    ],
+    "propagatingConnections": [],
+    "provisioningState": "Updating",
+    "routes": []
+  },
+  "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+}

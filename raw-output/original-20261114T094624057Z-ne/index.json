@@ -1,0 +1,56 @@
+{
+  "runId": "vwan-e-4cf83e09",
+  "capturedAtUtc": "2026-11-14T09:47:51.5066978+00:00",
+  "records": [
+    {
+      "completedUtc": "2026-11-14T09:46:41.5283189+00:00",
+      "startedUtc": "2026-11-14T09:46:24.1190221+00:00",
+      "name": "wan-configuration",
+      "sha256": "34163AB3E0D5DB98382DBF245EEBE3253E96BE373CC6807ECF982E2662772C12",
+      "status": "captured"
+    },
+    {
+      "completedUtc": "2026-11-14T09:46:57.2303061+00:00",
+      "startedUtc": "2026-11-14T09:46:41.5831956+00:00",
+      "name": "hub-configuration",
+      "sha256": "1B043E004C4F273A6F0536F760A813D7D946060BCBB05F4B0AD317C8BFE6B3B4",
+      "status": "captured"
+    },
+    {
+      "completedUtc": "2026-11-14T09:47:13.8609610+00:00",
+      "startedUtc": "2026-11-14T09:46:57.3049005+00:00",
+      "name": "hub-table-configuration",
+      "sha256": "3900400DC7AA83C14DDF80B3B13BD32B154321A0406C8D4226445336EB5EC9FE",
+      "status": "captured"
+    },
+    {
+      "completedUtc": "2026-11-14T09:47:37.5253646+00:00",
+      "startedUtc": "2026-11-14T09:47:13.9362898+00:00",
+      "name": "hub-effective-default",
+      "sha256": "4716CF50E34079FB8DF7A3B0CBF71A34EC0524030A45D221277D95B80C9CCEC3",
+      "status": "captured"
+    },
+    {
+      "name": "msee-primary",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "name": "msee-secondary",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "name": "aux-er-gateway-learned",
+      "status": "not-deployed-in-this-control"
+    },
+    {
+      "completedUtc": "2026-11-14T09:47:51.4668760+00:00",
+      "startedUtc": "2026-11-14T09:47:37.6101249+00:00",
+      "name": "vpn-gateway-endpoints",
+      "sha256": "6B83CD5C2CBBE701A306140AE033559CBC288DF867B6852D1D61B7D356DE665D",
+      "status": "captured"
+    }
+  ],
+  "region": "ne",
+  "label": "original",
+  "layerScope": "Native hub RIB, both MSEEs, auxiliary ER gateway and non-secret gateway endpoint configuration. BIRD and actual customer MCR are separate captures."
+}

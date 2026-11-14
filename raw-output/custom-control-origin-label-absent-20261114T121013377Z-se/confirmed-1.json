@@ -1,0 +1,19 @@
+{
+  "etag": "W/\"ecf0fe0e-b59b-57f3-8494-88ddc2e2e6fc\"",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubRouteTables/red",
+  "name": "red",
+  "properties": {
+    "associatedConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-spoke-se"
+    ],
+    "labels": [
+      "orphan-se"
+    ],
+    "propagatingConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-se/hubVirtualNetworkConnections/vnet-spoke-se"
+    ],
+    "provisioningState": "Succeeded",
+    "routes": []
+  },
+  "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+}
