@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "allowHubToRemoteVnetTransit": true,
+    "allowRemoteVnetToUseHubVnetGateways": true,
+    "connectivityStatus": "Connected",
+    "enableInternetSecurity": false,
+    "remoteVirtualNetwork": {
+      "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualNetworks/vnet-spoke-ne"
+    },
+    "resourceGuid": "dd2d4eaa-1e0c-5b61-8c06-01ff3dfa37ac",
+    "routingConfiguration": {
+      "associatedRouteTable": {
+        "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/defaultRouteTable"
+      },
+      "propagatedRouteTables": {
+        "labels": [
+          "Default"
+        ],
+        "ids": [
+          {
+            "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/defaultRouteTable"
+          }
+        ]
+      },
+      "vnetRoutes": {
+        "staticRoutes": [],
+        "staticRoutesConfig": {
+          "propagateStaticRoutes": true,
+          "vnetLocalRouteOverrideCriteria": "Contains"
+        }
+      }
+    }
+  }
+}

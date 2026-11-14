@@ -1,0 +1,540 @@
+{
+  "scope": "Preregistered native VNet-prefix membership/origin checks only; not packet reachability or authoritative absence of unobserved branch inputs.",
+  "cells": [
+    {
+      "cell": "custom-baseline",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "default-restored",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [],
+        "ne/red": [],
+        "se/blue": [],
+        "se/red": []
+      }
+    },
+    {
+      "cell": "empty-ne",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "cell": "none-ne",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "cell": "origin-label-absent",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ]
+      }
+    },
+    {
+      "cell": "origin-label-restored",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "red-restored",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "shared-labels",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "shared-restored",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "shared-source-restored",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "shared-source",
+      "status": "passed",
+      "observedVNetOrigins": {
+        "ne/blue": [
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          },
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "ne/red": [
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/blue": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.212.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.213.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ],
+        "se/red": [
+          {
+            "prefix": "10.210.0.0/16",
+            "nextHopType": "Virtual Network Connection",
+            "asPath": ""
+          },
+          {
+            "prefix": "10.211.0.0/16",
+            "nextHopType": "Remote Hub",
+            "asPath": "65520-65520"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -30,9 +30,10 @@ conformance certificate or a packet-delivery test**.
   remote VPN private-only routes with leading path `12076` in the reported
   peer/direction cells. Missing peer entries are not suppression proof; these
   observations do not newly certify mixed public/private ASN vendor behavior.
-- Custom red/blue baseline routing is captured from both actual hubs. The
-  additional empty, None, missing-origin-label and shared-label controls are
-  being completed; their final outcomes are recorded below only after capture.
+- Custom red/blue, normalized-empty, None, missing-origin-label and shared-source
+  controls are captured from both actual hubs. The custom origin-label fallback
+  and consistent shared-origin behavior are supported by selected VNet origins;
+  unobserved branch/transit scope remains Not assessed.
 
 ## Topology and provenance
 
@@ -167,8 +168,12 @@ with and propagate to their respective local table ID and label.
 | NE red association with explicitly empty propagation request | Azure accepted then normalized to Default table ID and lowercase `default` label; NE red prefix moved to Default locally and remotely, while association remained red. This is **not** a confirmed native explicit-empty configuration. |
 | NE red association with None propagation | Confirmed None ID/lowercase label; the NE red VNet prefix disappears from observed local/remote tables, while positive SE red input remains in NE red. Paired red restoration returns both red origins. |
 | SE red origin label absent while source still propagates red | NE red still positively selects the SE red VNet via Remote Hub, while SE red retains its local VNet and no longer selects NE red. This supports custom origin-label fallback, not bypass of destination-label matching. |
-| Shared red/blue labels in both regions | Pending |
-| Paired restorations and final Default restoration | Pending |
+| Shared red/blue labels in both regions | Labels alone retain baseline isolation. SE red ID plus shared-label propagation then selects SE red in red/blue tables locally and remotely; NE red does not leak into blue. |
+| Paired restorations and final Default restoration | All eleven stable cells passed. Red and shared-source/label restorations return their baseline VNet origins. Final Default tables positively contain all four VNets; custom red/blue tables have explicit native `empty` observations, not missing/failed snapshots. |
+
+The [executed membership/origin checks](checks/context-checks.json) are derived
+assertions against the archived native captures, not additional Azure API
+responses or end-to-end reachability certificates.
 
 SE Default also positively contains the two local SE VNet prefixes via an
 **ExpressRouteGateway** origin, not a VNet-connection origin. Those entries
@@ -217,7 +222,7 @@ original capture hashes, verify published bytes.
 
 ## Disposition and limitations
 
-The #9 investigation now has actual originating-source, native RIB, internal
+The simulator investigation now has actual originating-source, native RIB, internal
 VPN input, both MSEE, auxiliary gateway and real protocol receiver evidence,
 including withdrawal and restoration controls. The previously incomplete
 NE longer-path cells are complete. Its initial SE VPN-preference eligibility/
@@ -225,7 +230,19 @@ history cause remains unresolved at the internal hub-stage boundary.
 That limitation is disclosed instead of prescribing an unsupported universal
 algorithm fix.
 
-The separate #106/#112 architecture plan is documented in
+The calibrated app revision is
+[`717582042621fb0ee751c5d195ef18df3aad3c2a`](https://github.com/erjosito/vwan-visual-topology/commit/717582042621fb0ee751c5d195ef18df3aad3c2a),
+with **446 passing unit tests**, lint/build and
+[exact-head CI](https://github.com/erjosito/vwan-visual-topology/actions/runs/43596994429)
+covering both collector suites, generated Bicep and the browser suite.
+[The implementation PR](https://github.com/erjosito/vwan-visual-topology/pull/111)
+removes only the calibrated custom-origin coverage gate; unknown/remote-only,
+conflicting-origin, static and secured/custom boundaries remain conservative.
+
+The separate architecture plan for
+[erjosito/vwan-visual-topology#106](https://github.com/erjosito/vwan-visual-topology/issues/106)
+and [erjosito/vwan-visual-topology#112](https://github.com/erjosito/vwan-visual-topology/issues/112)
+is documented in
 [the authoritative #112 plan](https://github.com/erjosito/vwan-visual-topology/issues/112#issuecomment-6875178770),
 including alternatives, critique, dependencies and preparation actions.
 No architecture or identity implementation is part of this lab.

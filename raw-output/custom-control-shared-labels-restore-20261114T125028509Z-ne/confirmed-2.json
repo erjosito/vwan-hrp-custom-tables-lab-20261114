@@ -1,0 +1,19 @@
+{
+  "etag": "W/\"3f2c9261-0c39-5aee-8fa4-29c60bae72ba\"",
+  "id": "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubRouteTables/blue",
+  "name": "blue",
+  "properties": {
+    "associatedConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-isolated-ne"
+    ],
+    "labels": [
+      "blue"
+    ],
+    "propagatingConnections": [
+      "/subscriptions/11b71798-1dd8-5c6b-85da-428e0b71ed2d/resourceGroups/rg-vwan-e-4cf83e09/providers/Microsoft.Network/virtualHubs/hub-ne/hubVirtualNetworkConnections/vnet-isolated-ne"
+    ],
+    "provisioningState": "Succeeded",
+    "routes": []
+  },
+  "type": "Microsoft.Network/virtualHubs/hubRouteTables"
+}
