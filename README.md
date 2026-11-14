@@ -226,9 +226,16 @@ The simulator investigation now has actual originating-source, native RIB, inter
 VPN input, both MSEE, auxiliary gateway and real protocol receiver evidence,
 including withdrawal and restoration controls. The previously incomplete
 NE longer-path cells are complete. Its initial SE VPN-preference eligibility/
-history cause remains unresolved at the internal hub-stage boundary.
-That limitation is disclosed instead of prescribing an unsupported universal
-algorithm fix.
+history cause was not isolated at the internal hub-stage boundary.
+The maintainer accepted the observation as normal live VWAN operational
+route-refresh/history behavior: after an HRP change, affected advertisements
+may need to be withdrawn and re-advertised. This is the agreed closure
+disposition of the investigation, not proof that every HRP change needs a
+bounce or that a particular internal Azure cause was established.
+The simulator intentionally reevaluates existing candidates immediately on
+an HRP edit, without a bounce or retained control-plane history.
+No unsupported universal algorithm fix was prescribed. See
+[the operational/model distinction](https://github.com/erjosito/vwan-visual-topology/blob/main/ROUTING-LOGIC.md#live-azure-hrp-changes-versus-simulator-reevaluation).
 
 The calibrated app revision is
 [`717582042621fb0ee751c5d195ef18df3aad3c2a`](https://github.com/erjosito/vwan-visual-topology/commit/717582042621fb0ee751c5d195ef18df3aad3c2a),
